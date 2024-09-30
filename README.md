@@ -1,22 +1,4 @@
 # pesawat-java
-# main java
-
-public class Main {
-    public static void main(String[] args) {
-        PesawatTempur pesawat = new PesawatTempur("Merah");
-        pesawat.infoPesawat();
-        pesawat.nyalakanMesin();
-        pesawat.terbang();
-        pesawat.tambahKecepatan(200);
-        pesawat.kurangiKecepatan(100);
-        pesawat.belok("Barat");
-        pesawat.infoPesawat();
-        pesawat.kurangiKecepatan(50);
-        pesawat.turun();
-        pesawat.infoPesawat();
-    }    
-}
-
 # pesawat tempur.java
 public class PesawatTempur {
 
@@ -94,3 +76,30 @@ public class PesawatTempur {
         System.out.println("------------------------");
     }
 }    
+![code java2](https://github.com/user-attachments/assets/1aa32a23-8807-447c-a4c4-c31bfd0ac405)
+
+#main.java
+
+public class Main {
+    public static void main(String[] args) {
+
+        PesawatTempur pesawat = new PesawatTempur("Merah");
+        pesawat.infoPesawat();
+        pesawat.nyalakanMesin();
+        pesawat.terbang();
+        pesawat.tambahKecepatan(200);
+        pesawat.kurangiKecepatan(100);
+        pesawat.belok("Barat");
+        pesawat.infoPesawat();
+        pesawat.kurangiKecepatan(50);
+        pesawat.turun();
+        pesawat.infoPesawat();
+    }    
+}
+![code java](https://github.com/user-attachments/assets/654ec53a-c5a8-413e-8e29-b5860cf6f02f)
+
+#output
+
+![Screenshot (131)](https://github.com/user-attachments/assets/162522d3-3fb4-4d10-8f7a-19570d7b4b81)
+![Screenshot (130)](https://github.com/user-attachments/assets/129fc66f-899e-4a2c-a117-b2d23e2ef6b0)
+
